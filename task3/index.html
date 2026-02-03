@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio id = "alarmSound" src = "LosingMyReligion.mp3"></audio>
+
+    <h2>Alarm</h2>
+
+    <label for = "hours">Hours:</label>
+    <input type = "number" id = "hours" min = "0" max = "23">
+
+    <label for = "minutes">Minutes:</label>
+    <input type ="number" id = "minutes" min = "0" max = "59">
+
+    <button id = "setAlarm">Set the alarm</button>
+    <button id = "stopAlarm">Stop the alarm</button>
+
+    <div id="status"></div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
